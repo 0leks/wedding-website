@@ -1,0 +1,57 @@
+body {
+    background-color:rgb(230, 228, 255);
+    font-family: cursive;
+    /* font-family: bradley hand, cursive; */
+
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* background-image: url("wisteria.jpg");
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position: top center;
+    mix-blend-mode: multiply; */
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.group {
+    /* border: 1px solid red; */
+    padding: 1em;
+}
+
+.group h2 {
+    margin: 0;
+    display: flex;
+    /* border: 1px solid purple; */
+}
+.group .content {
+    max-width: 70%;
+}
+
+/* .group:nth-child(odd) .content {
+    margin-left: auto;
+    padding-left: auto;
+} */
+/* .group:nth-child(even) h2 {
+    justify-content: right;
+} */
+
+.suggest::marker {
+    /* position: relative;
+    display: block;
+    left: -20%;
+    right: 0;
+    top: -20px;
+    bottom: 10px;
+    width: 20%; */
+    content:"What do you suggest we do? \2192";
+    border: 1px solid green;
+    font-size: smaller;
+}
